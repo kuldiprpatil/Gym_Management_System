@@ -1,0 +1,197 @@
+/* ------------------------------------------------------ */
+
+/* Trainer Card CSS */
+
+ .card{
+    background-color: transparent;
+}
+
+ .trainercontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .trainercontainerheader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .headingtrainer span{
+    color: tomato;
+  }
+
+  .headingtrainer{
+    font-size: 40px;
+    font-weight: bolder;
+  } 
+
+  .trainercard{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .trainercardinner{
+    min-width: 350px;
+    height: 490px;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid forestgreen;
+    box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+  }
+
+  .trainercard::-webkit-scrollbar{
+    width: 0;
+  }
+
+  .trainercard .trainercardinner .trainercardinner_space{
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  .trainercard .trainercardinner .card-img-top{
+    height: 200px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .trainercard .trainercardinner .card-body{
+    display: inline;
+  }
+  
+  .trainercard .trainercardinner .trainersciallinks{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .trainercard .trainercardinner .trainersciallinks img{
+    height: 20px;
+    width: 20px;
+  }
+  
+
+.footercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background : 'rgba(34, 35, 58, 0.2)';
+    height: 100%;
+    width: 100%;
+}
+.footercardbody{
+  background: rgb(206, 203, 245);
+  /* background: linear-gradient(90deg, rgba(74,65,204,1) 0%, rgba(46,109,242,1) 36%, rgba(51,83,150,1) 64%, rgba(76,110,183,1) 89%); */
+    height: 100%;
+    width: 100%;
+}
+.footer_gym_about{
+    color: rgb(231, 231, 231);
+}
+.copyright{
+    background-color: black;
+    color: rgb(163, 163, 163);
+} 
+
+/* .trainercard{
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  overflow-y: auto;
+  
+}
+
+.trainercardinner{
+  min-width: 350px;
+  height: 490px;
+  line-height: 490px;
+  text-align: center;
+  background-color: aqua;
+} */
+
+
+/* .trainercontainer{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.trainercontainerheader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headingtrainer{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.trainercard{
+  width: 100%;
+  margin: 0;
+  height: 500px;
+  max-height: 500px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.trainercard::-webkit-scrollbar{
+  width: 0;
+}
+
+.trainercardinner{
+  padding: 0;
+  margin: 5px;
+  width: 300px;
+  min-width: 350px;
+  height: 490px;
+  line-height: 490px;
+  text-align: center;
+  background-color: rgb(161, 161, 161);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}
+
+.cardIMGwraper{
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 300px;
+}
+.cardIMGwraper img{
+  height: 200px;
+  width: 300px;
+}
+
+.trainercardinner.card-body{
+  height: 300px;
+  width: 300px;
+}
+
+.trainersciallinks img{
+  height: 20px;
+  width: 20px;
+} */

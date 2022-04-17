@@ -1,0 +1,15 @@
+table{
+    margin-top: 20px;
+}
+.viwe_profile_container{
+    width: 100%;
+}
+.rounded-circle{
+    height: 100px;
+    width: 100px;
+}
+.profilecardcontainer{
+    display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}

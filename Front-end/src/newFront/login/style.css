@@ -1,0 +1,346 @@
+.rightMost {
+  margin-left: auto;
+  margin-right: 0;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.vavProp{
+  opacity: 1;
+  background-color:rgb(175, 177, 178);
+}
+
+.rightPadding {
+  margin-right: 10px;
+  margin-left: 5px;
+  float: right;
+}
+
+
+.trainer {
+  width: 100%;
+  background-color: aqua;
+}
+.formCenter{
+  margin-left: 400px;
+  margin-top: 100px;
+  width: 100%;
+}
+.bringCenter {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+.h1maintitlecolor {
+  color: rgb(0, 200, 255);
+}
+.mainName {
+  color: orange;
+  font-family: fantasy;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.style-prefix-g5347j {
+  min-height: 300px;
+  background-color: #3295cf;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px 0px 0px;
+  float: left;
+}
+.style-prefix-1yj6cv7 {
+  height: fit-content;
+  position: relative;
+}
+
+.style-prefix-5m47ck {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: BrandonTextWeb-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+}
+.style-prefix-147h429 {
+  display: grid;
+  grid-template-columns: 33.3333% 66.666666%;
+  margin: 40px 0 0px;
+  padding: 20px 0 40px 0;
+  width: 100%;
+}
+
+.style-prefix-2m8vp1 {
+  width: 1252px;
+}
+
+.container-slider {
+  margin-top: 4%;
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 530px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  flex: 1.5;
+  /* z-index: -1; */
+  position: relative;
+  transition: flex 0.7s;
+}
+
+#div3 .panel {
+  color: #000;
+}
+
+.panel .slider-div-content {
+  display: flex;
+  flex-direction: column;
+}
+.panel .fitway-page-slider {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  top: 5%;
+  left: 5%;
+  font-size: 18px;
+  opacity: 0;
+}
+
+.panel .fitway-page-slider-text {
+  font-size: 20px;
+  width: 290px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  /* color: #dfdfdf; */
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  top: 15%;
+  left: 5%;
+  opacity: 0;
+}
+
+.panel .fitway-slider-page-explore {
+  /* text-align:center; */
+  font-size: 14px;
+  /* color: #dfdfdf; */
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  top: 45%;
+  left: 5%;
+  /* /* width: 78px; */
+  height: 30px;
+  cursor: pointer;
+  opacity: 0;
+  float: left;
+  padding: 5px 10px 5px 10px;
+  /* color: #ffff; */
+  border: 2px solid white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div3 .panel .fitway-slider-page-explore {
+  border: 2px solid #000;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active .fitway-page-slider,
+.panel.active .fitway-page-slider-text,
+.panel.active .fitway-slider-page-explore {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#overlay.active:not(#unblurred) {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#div3 {
+  width: 80%;
+  /* border: 1px solid green; */
+  margin: auto;
+  margin-bottom: 4%;
+  color: #000;
+}
+.image-fitway {
+    margin-bottom: 1%;
+}
+.fitway-div-text  {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.fitway-div-text a  {
+    text-decoration: none;
+    color: #6e6d6d;
+    
+}
+
+.fitway-page-text-after-explore {
+    color: #6e6d6d;
+}
+
+.fitway-div-text .arrow-image {
+    height: 22px;
+    width: 10px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+
+.div2 {
+    width: 95%;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.h3inslider {
+    color: rgb(254, 148, 0);
+  }
+
+
+
+
+
+/* FeedBack */
+
+.card{
+    background-color: transparent;
+}
+
+ .trainercontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .trainercontainerheader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .headingtrainer span{
+    color: tomato;
+  }
+
+  .headingtrainer{
+    font-size: 40px;
+    font-weight: bolder;
+  } 
+
+  .trainercard{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .trainercardinner{
+    min-width: 350px;
+    height: 490px;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid forestgreen;
+    box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 10px 14px 5px rgba(0,0,0,0.35);
+  }
+
+  .trainercard::-webkit-scrollbar{
+    width: 0;
+  }
+
+  .trainercard .trainercardinner .trainercardinner_space{
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  .trainercard .trainercardinner .card-img-top{
+    height: 200px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .trainercard .trainercardinner .card-body{
+    display: inline;
+  }
+  
+  .trainercard .trainercardinner .trainersciallinks{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .trainercard .trainercardinner .trainersciallinks img{
+    height: 20px;
+    width: 20px;
+  }
+  
+
+.footercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background : 'rgba(34, 35, 58, 0.2)';
+    height: 100%;
+    width: 100%;
+}
+.footercardbody{
+  background: rgb(206, 203, 245);
+  /* background: linear-gradient(90deg, rgba(74,65,204,1) 0%, rgba(46,109,242,1) 36%, rgba(51,83,150,1) 64%, rgba(76,110,183,1) 89%); */
+    height: 100%;
+    width: 100%;
+}
+.footer_gym_about{
+    color: rgb(231, 231, 231);
+}
+.copyright{
+    background-color: black;
+    color: rgb(163, 163, 163);
+} 
+

@@ -1,0 +1,45 @@
+.sidenavbar {
+    height: 92vh;
+}
+
+.sidenavbarItem {
+    background-color: #7DA2A9;
+    font-family: Verdana;
+}
+
+.innerContainer {
+    background-color: #fefefe;
+}
+
+.dashboardsidelink {
+    font-size: 23px;
+}
+
+.dashboardsidelink:hover {
+    font-weight: bold;
+}
+
+.NavBarContaineritem {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.NavBarContaineritem a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebarcontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.memberContainerBox ul li a {
+    color: black;
+    cursor: pointer;
+}

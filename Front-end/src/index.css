@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+}
+
+.transparent{
+  background: transparent;
+}
+
+.h1maintitle{
+  font-size: 100px;
+}
+
+.h1maintitlecolor{
+  color: rgb(255, 115, 0);
+}
+
+.navgymlogo{
+  height: 40px;
+  width: 40px;
+}
+
+.navprofilename :hover{
+  color: rgb(255, 115, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.profile_conatiner{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+
+
+.navitemright{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.navitemright:hover{
+  color: rgb(255, 115, 0);
+}
+
+.profilecard{
+  
+  margin-top: 20px;
+  
+}
+.profilecard1{
+  margin-right: 20px;
+}
+
+.profile_conatiner{
+  display: flex;
+  padding-left: 0%;
+  padding-top: 0%;
+  
+}
+.profile_conatiner .sidebar_profile{
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.profile_conatiner .sidebar_profile .linkbtn{
+
+}
+
+.profile_conatiner .viwe_profile_container{
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+
+
+/* ------------------------------------------------------ */
