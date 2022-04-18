@@ -1,5 +1,10 @@
 # Gym_Management_System
 
+Technology Used
+Frontend = ReactJs
+Backend = Java SpringBoot
+Database = MySQL
+
 1. INTRODUCTION TO PROJECT
 
 Our Gym Management Software is a gym membership management system. You can keep records on your members, their memberships, and have quick and easy communication between you and your members. The web based “Gym Management  System” project is an attempt to stimulate the basic concepts of gym management system.
