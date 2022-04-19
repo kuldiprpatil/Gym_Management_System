@@ -1,8 +1,11 @@
 # Gym_Management_System
 
 Technology Used
+
 Frontend = ReactJs
+
 Backend = Java SpringBoot
+
 Database = MySQL
 
 1. INTRODUCTION TO PROJECT
